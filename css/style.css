@@ -44,7 +44,7 @@ body {
 }
 
 
-.mein_title{
+.main_title {
    font-weight: 700;
    font-size: 64px;
    margin-bottom: 20px;
@@ -163,34 +163,150 @@ body {
 }
 
 
-.composition{
-margin-bottom: 180px;
+.composition {
+   margin-bottom: 180px;
 }
 
-.composition_title{
-text-align: center;
+.composition_title {
+   text-align: center;
 }
 
-.composition_text{
-text-align: center;
-max-width: 655px;
-margin: 0 auto 40px;
+.composition_text {
+   text-align: center;
+   max-width: 655px;
+   margin: 0 auto 40px;
 }
 
-.composition_inner{
-max-width: 625px;
-margin: 0 auto;
-display: flex;
-justify-content: space-between;
+.composition_inner {
+   max-width: 625px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
 }
 
-.composition_inner-text{
-display: flex;
-flex-direction: column;
-justify-content: space-between;
+.composition_inner-text {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
 }
 
-.composition_inner-text p{
-width: 230px;
+.composition_inner-text p {
+   width: 230px;
 }
 
+.case {
+   background-color: #fafafa;
+   padding: 80px 0 100px;
+   text-align: center;
+}
+
+
+.case_text {
+   max-width: 825px;
+   margin: 0 auto 40px;
+}
+
+.energy_title {
+   padding-top: 160px;
+   margin-bottom: 40px;
+
+}
+
+.energy_num {
+   font-size: 210px;
+   font-weight: 700;
+}
+
+.energy_text {
+   max-width: 400px;
+   margin: 0 auto;
+}
+
+
+.audio {
+   background-image: url(../images/audio-full.jpg);
+   background-repeat: no-repeat;
+   background-position: top center;
+   background-size: cover;
+}
+
+/* .audio::before{
+   content: '';
+   background-image: url(../images/audio-bg.jpg);
+   background-repeat: no-repeat;
+   background-position: top center;
+   background-size: cover;
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   right: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: -2;
+   
+}
+
+.audio::after {
+   content: '';
+   position: absolute;
+   background-image: url(../images/sound.png);
+   background-repeat: no-repeat;
+   background-position: bottom center;
+   background-size: cover;
+   bottom: -250px;
+   width: 100%;
+   left: 0;
+   right: 0;
+   height: 175vh;
+   z-index: -1;
+} */
+
+.audio_inner {
+   min-height: 220vh;
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+}
+
+.audio_box {
+   text-align: center;
+   color: #fff;
+   padding-bottom: 30vh;
+}
+
+.audio_text {
+   width: 300px;
+   margin-bottom: 10px;
+
+}
+
+.btn {
+   text-transform: uppercase;
+   font-weight: 700;
+   color: #000;
+   background-color: #fff;
+   padding: 15px 58px;
+   border-radius: 30px;
+   margin-top: 25px;
+}
+
+.footer {
+   padding: 50px 0 40px;
+   background-color: #000;
+   color: #fff;
+   text-align: center;
+   font-weight: 700;
+}
+
+.footer_text{
+   padding: 25px 0;
+}
+
+.footer_list{
+   padding-top: 80px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 0 20px;
+}
