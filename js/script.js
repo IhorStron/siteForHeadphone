@@ -1,28 +1,28 @@
 const chooseColor = document.querySelectorAll('.choose-color_btn');
 const contentItem = document.querySelectorAll('.content-item');
 
-chooseColor.forEach(function(element){
+chooseColor.forEach(function (element) {
    element.addEventListener('click', open)
 })
 
-function open(evt){
+function open(evt) {
    const target = evt.currentTarget;
    const button = target.dataset.button;
    const contentActive = document.querySelectorAll(`.${button}`);
 
 
-   chooseColor.forEach(function(item){
+   chooseColor.forEach(function (item) {
       item.classList.remove('choose-color_btn--active')
    })
 
 
    target.classList.add('choose-color_btn--active')
 
-   contentItem.forEach(function(item){
+   contentItem.forEach(function (item) {
       item.classList.remove('content-item__active')
    });
 
-   contentActive.forEach(function(item){
+   contentActive.forEach(function (item) {
       item.classList.add('content-item__active')
    })
 
